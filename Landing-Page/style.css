@@ -3,6 +3,8 @@
     src: url(./fonts/Author-Variable.ttf);
 }
 
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -33,8 +35,10 @@ nav a {
     padding: 5px;
 }
 nav a:hover {
+    color: #4CAF4F;
     border-bottom: 2px solid #51af4f;
-    transition: margin-bottom 0.2s ease-in-out;
+    transition: color 0.1s ease-in-out, border-bottom 0.1s ease-in-out;
+    /* transition: color 0.2s ease-in-out; */
 }
 
 .joinUs {
@@ -48,6 +52,10 @@ nav a:hover {
 }
 .joinUs:hover {
     background-color: #62e566;
+}
+
+.menu-mobile {
+    display: none;
 }
 
 /* HERO SECTION */

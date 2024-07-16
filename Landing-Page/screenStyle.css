@@ -1,6 +1,7 @@
 /* DEVICES RESPONSIVENESS */
 
 @media (max-width: 574px) {
+  /* NAVBAR */
   .navbar {
     padding: 10px 5px;
   }
@@ -10,6 +11,86 @@
     display: none;
   }
 
+  /* MOBILE MENU */
+  .menu-mobile {
+    display: block;
+  }
+  .menu-bar {
+    background-color: #4caf4f;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  #menu-close {
+    display: none;
+  }
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(245, 247, 250, 0.9);
+    color: white;
+    z-index: 1;
+    padding: 20px;
+    opacity: 0;
+    transition: background 0.3s ease-in-out;
+    border: 2px solid #00000044;
+  }
+  #menu-toggle:checked + .menu-bar + .menu {
+    display: block;
+    opacity: 1;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  .menu li {
+    margin: 10px 0;
+    padding: 10px 0px;
+    border-bottom: 2px solid #135324;
+  }
+  .menu a {
+    margin: 10px 0px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #135324;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .menu a:hover {
+    color: #4caf4f;
+    transition: color 0.2s ease-in-out;
+  }
+  .menu-mobile button {
+    display: block;
+    font-size: 27px;
+  }
+
+  /* HERO SECTION */
   .hero-section {
     padding: 10px;
     margin: 10px;
@@ -254,6 +335,86 @@
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
+  /* MOBILE MENU */
+  .menu-mobile {
+    display: block;
+  }
+  .menu-bar {
+    background-color: #4caf4f;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  #menu-close {
+    display: none;
+  }
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(245, 247, 250, 0.9);
+    color: white;
+    z-index: 1;
+    padding: 20px;
+    opacity: 0;
+    transition: background 0.3s ease-in-out;
+    border: 2px solid #00000044;
+  }
+  #menu-toggle:checked + .menu-bar + .menu {
+    display: block;
+    opacity: 1;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  .menu li {
+    margin: 30px 0;
+    padding: 10px 0px;
+    border-bottom: 2px solid #135324;
+  }
+  .menu a {
+    margin: 10px 0px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #135324;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .menu a:hover {
+    color: #4caf4f;
+    transition: color 0.2s ease-in-out;
+  }
+  .menu-mobile button {
+    display: block;
+    font-size: 27px;
+  }
+
+  /* NAVBAR SECTION */
   .navbar {
     padding: 10px 5px;
   }
@@ -504,9 +665,88 @@
   }
 }
 
-
 /* TABLETS DEVICES */
-@media (min-width: 768px) and (max-width: 900px)  {
+@media (min-width: 768px) and (max-width: 900px) {
+  /* MOBILE MENU */
+  .menu-mobile {
+    display: block;
+  }
+  .menu-bar {
+    background-color: #4caf4f;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  #menu-close {
+    display: none;
+  }
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(245, 247, 250, 0.9);
+    color: white;
+    z-index: 1;
+    padding: 20px;
+    opacity: 0;
+    transition: background 0.3s ease-in-out;
+    border: 2px solid #00000044;
+  }
+  #menu-toggle:checked + .menu-bar + .menu {
+    display: block;
+    opacity: 1;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  .menu li {
+    margin: 30px 0;
+    padding: 10px 0px;
+    border-bottom: 2px solid #135324;
+  }
+  .menu a {
+    margin: 10px 0px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #135324;
+    font-weight: 600;
+    padding: 5px;
+  }
+  .menu a:hover {
+    color: #4caf4f;
+    transition: color 0.2s ease-in-out;    
+  }
+  .menu-mobile button {
+    display: block;
+    font-size: 27px;
+  }
+  
+  /* NAVBAR SECTION */
   .navbar {
     padding: 10px 5px;
   }
@@ -586,11 +826,11 @@
   .commSystem-group h3 {
     font-size: 30px;
     margin-bottom: 10px;
-}
-.commSystem-group p {
+  }
+  .commSystem-group p {
     line-height: 27px;
     font-size: 20px;
-}
+  }
 
   /* INTERNET INTEGRATION */
   .int-section {
@@ -754,7 +994,7 @@
   .footerOne {
     display: block;
     margin: auto;
-    width: 50%; 
+    width: 50%;
   }
   .footerOne-socials {
     margin-bottom: 50px;
@@ -774,7 +1014,7 @@
   .email {
     margin: auto;
   }
-}   
+}
 
 /* DOUBLE SCREEN TABLET */
 @media (min-width: 901px) AND (max-width: 1150px) {
@@ -857,11 +1097,11 @@
   .commSystem-group h3 {
     font-size: 30px;
     margin-bottom: 10px;
-}
-.commSystem-group p {
+  }
+  .commSystem-group p {
     line-height: 27px;
     font-size: 20px;
-}
+  }
 
   /* INTERNET INTEGRATION */
   .int-section {
@@ -1025,7 +1265,7 @@
   .footerOne {
     display: block;
     margin: auto;
-    width: 50%; 
+    width: 50%;
   }
   .footerOne-socials {
     margin-bottom: 50px;
