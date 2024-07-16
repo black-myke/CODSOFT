@@ -1,0 +1,1048 @@
+/* DEVICES RESPONSIVENESS */
+
+@media (max-width: 574px) {
+  .navbar {
+    padding: 10px 5px;
+  }
+
+  .navbar nav,
+  .joinUs {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 49px;
+    line-height: 50px;
+    text-align: left;
+  }
+  .hero-text p {
+    margin: 15px 10px 10px 10px;
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .hero-text button {
+    margin: 10px 0px 40px;
+    font-size: 25px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    height: 300px;
+  }
+
+  /* PARTNERS */
+
+  .partners {
+    margin: 30px 0px;
+    padding: 0px 50px;
+  }
+  .partners-text h2 {
+    font-size: 40px;
+  }
+  .partners-text p {
+    font-size: 25px;
+  }
+
+  /* COMMUNITY MANAGEMENT SYSTEM */
+  .commSystem-text h2 {
+    font-size: 40px;
+    padding: 0px 20px;
+  }
+
+  .commSystem-text p {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .commSystem-group {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .memOrg,
+  .globAss,
+  .clubs {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 30px;
+  }
+
+  /* INTERNET INTEGRATION */
+  .int-section {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .int-section img {
+    height: 250px;
+  }
+  .int-text {
+    padding: 20px;
+  }
+  .int-text h2 {
+    font-size: 40px;
+  }
+  .int-text p {
+    font-size: 25px;
+  }
+  .int-text button {
+    font-size: 25px;
+  }
+
+  /*  JOURNEY */
+  .journey {
+    flex-direction: column;
+  }
+  .journey-text {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .journey-text h2 {
+    font-size: 40px;
+  }
+  .journey-text p {
+    font-size: 25px;
+  }
+  .milestone {
+    width: 100%;
+  }
+  .milestone h4 {
+    font-size: 35px;
+  }
+  .milestone p {
+    font-size: 25px;
+  }
+  .milestone-one,
+  .milestone-two {
+    flex-direction: column;
+  }
+  .member,
+  .community,
+  .visitors,
+  .donations {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+  .member-text,
+  .community-text,
+  .visitors-text,
+  .donations-text {
+    margin-left: 40px;
+  }
+
+  /* MOBILE APP SECTION */
+  .mobileApp {
+    flex-direction: column;
+    margin: 50px 10px;
+    padding: 0px;
+  }
+  .mobileApp img {
+    height: 300px;
+  }
+  .mobileApp-text {
+    padding: 10px;
+  }
+  .mobileApp-text h2 {
+    font-size: 40px;
+  }
+  .mobileApp-text p {
+    font-size: 25px;
+  }
+
+  .mobileApp-text button {
+    font-size: 25px;
+  }
+
+  /* FOUNDER */
+  .founder {
+    flex-direction: column-reverse;
+    margin: 50px 10px;
+    padding: 0px;
+  }
+  .founder-text {
+    padding: 30px 20px;
+  }
+  .founder-text h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .founder-text p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .founder img {
+    height: 250px;
+  }
+
+  /* MAKING A DIFFERENCE */
+  .difference {
+    margin: 0px;
+    padding: 0px;
+  }
+  .difference-text {
+    padding: 20px;
+  }
+  .difference-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .difference-text p {
+    font-size: 25px;
+  }
+  .diffOption {
+    flex-direction: column;
+    padding: 20px 50px;
+  }
+  .option {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .option img {
+    height: 250px;
+    margin-bottom: 100px;
+  }
+
+  .diffOption-text {
+    width: 230px;
+    background-color: #f5f7fa;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 180px;
+    left: 8%;
+    box-shadow: 0px 3px 7px -6px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px 0px;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  footer a {
+    font-size: 20px;
+  }
+  .footerOne,
+  .footerTwo,
+  .footerThree {
+    margin: 15px 0px;
+  }
+  .footerFour {
+    margin: auto;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .navbar {
+    padding: 10px 5px;
+  }
+
+  .navbar nav,
+  .joinUs {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 49px;
+    line-height: 50px;
+    text-align: left;
+  }
+  .hero-text p {
+    margin: 15px 10px 10px 10px;
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .hero-text button {
+    margin: 10px 0px 40px;
+    font-size: 25px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    height: 300px;
+  }
+
+  /* PARTNERS */
+
+  .partners {
+    margin: 30px 0px;
+    padding: 0px 50px;
+  }
+  .partners-text h2 {
+    font-size: 40px;
+  }
+  .partners-text p {
+    font-size: 25px;
+  }
+
+  /* COMMUNITY MANAGEMENT SYSTEM */
+  .commSystem-text h2 {
+    font-size: 40px;
+    padding: 0px 20px;
+  }
+
+  .commSystem-text p {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .commSystem-group {
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+  .memOrg,
+  .globAss,
+  .clubs {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 30px;
+  }
+
+  /* INTERNET INTEGRATION */
+  .int-section {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .int-section img {
+    height: 250px;
+  }
+  .int-text {
+    padding: 20px;
+  }
+  .int-text h2 {
+    font-size: 40px;
+  }
+  .int-text p {
+    font-size: 25px;
+  }
+  .int-text button {
+    font-size: 25px;
+  }
+
+  /*  JOURNEY */
+  .journey {
+    flex-direction: column;
+  }
+  .journey-text {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .journey-text h2 {
+    font-size: 40px;
+  }
+  .journey-text p {
+    font-size: 25px;
+  }
+  .milestone {
+    width: 100%;
+  }
+  .milestone h4 {
+    font-size: 35px;
+  }
+  .milestone p {
+    font-size: 25px;
+  }
+  .milestone-one,
+  .milestone-two {
+    flex-direction: column;
+  }
+  .member,
+  .community,
+  .visitors,
+  .donations {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+  .member-text,
+  .community-text,
+  .visitors-text,
+  .donations-text {
+    margin-left: 40px;
+  }
+
+  /* MOBILE APP SECTION */
+  .mobileApp {
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 0px;
+  }
+  .mobileApp img {
+    height: 300px;
+  }
+  .mobileApp-text {
+    padding: 10px;
+  }
+  .mobileApp-text h2 {
+    font-size: 40px;
+  }
+  .mobileApp-text p {
+    font-size: 25px;
+  }
+
+  .mobileApp-text button {
+    font-size: 25px;
+  }
+
+  /* FOUNDER */
+  .founder {
+    flex-direction: column-reverse;
+    margin: 10px;
+    padding: 0px;
+  }
+  .founder-text {
+    padding: 30px 20px;
+  }
+  .founder-text h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .founder-text p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  /* MAKING A DIFFERENCE */
+  .difference {
+    margin: 0px;
+    padding: 0px;
+  }
+  .difference-text {
+    padding: 20px;
+  }
+  .difference-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .difference-text p {
+    font-size: 25px;
+  }
+  .diffOption {
+    flex-direction: column;
+    padding: 20px 50px;
+  }
+  .option {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .option img {
+    height: 300px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+
+  .diffOption-text {
+    width: 250px;
+    background-color: #f5f7fa;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    box-shadow: 0px 3px 7px -6px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px 0px;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  footer a {
+    font-size: 20px;
+  }
+  .footerOne,
+  .footerTwo,
+  .footerThree {
+    margin: 15px 0px;
+  }
+  .footerFour {
+    margin: auto;
+  }
+}
+
+
+/* TABLETS DEVICES */
+@media (min-width: 768px) and (max-width: 900px)  {
+  .navbar {
+    padding: 10px 5px;
+  }
+
+  .navbar nav,
+  .joinUs {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 0px;
+    margin: 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 49px;
+    line-height: 50px;
+    text-align: left;
+  }
+  .hero-text p {
+    margin: 15px 10px 10px 10px;
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .hero-text button {
+    margin: 10px 0px 40px;
+    font-size: 25px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    height: 300px;
+  }
+
+  /* PARTNERS */
+
+  .partners {
+    margin: 30px 0px;
+    padding: 0px 50px;
+  }
+  .partners-text h2 {
+    font-size: 40px;
+  }
+  .partners-text p {
+    font-size: 25px;
+  }
+
+  /* COMMUNITY MANAGEMENT SYSTEM */
+  .commSystem-text h2 {
+    font-size: 45px;
+    padding: 0px 20px;
+  }
+
+  .commSystem-text p {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .commSystem-group {
+    padding: 0px 20px;
+  }
+  .memOrg,
+  .globAss,
+  .clubs {
+    width: 40%;
+    margin: 20px 10px;
+    padding: 30px;
+  }
+  .commSystem-group h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.commSystem-group p {
+    line-height: 27px;
+    font-size: 20px;
+}
+
+  /* INTERNET INTEGRATION */
+  .int-section {
+    margin: 30px 10px;
+    padding: 0px;
+  }
+
+  .int-section img {
+    height: 250px;
+  }
+  .int-text {
+    padding: 20px;
+  }
+  .int-text h2 {
+    font-size: 40px;
+  }
+  .int-text p {
+    font-size: 25px;
+  }
+  .int-text button {
+    font-size: 25px;
+  }
+
+  /*  JOURNEY */
+  .journey {
+    flex-direction: column;
+  }
+  .journey-text {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .journey-text h2 {
+    font-size: 40px;
+  }
+  .journey-text p {
+    font-size: 27px;
+  }
+  .milestone {
+    width: 100%;
+  }
+  .milestone h4 {
+    font-size: 35px;
+    margin: 20px;
+  }
+  .milestone p {
+    font-size: 25px;
+  }
+
+  .member,
+  .community,
+  .visitors,
+  .donations {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+  .member-text,
+  .community-text,
+  .visitors-text,
+  .donations-text {
+    margin-left: 40px;
+  }
+
+  /* MOBILE APP SECTION */
+  .mobileApp {
+    margin: 40px 20px;
+    padding: 0px;
+  }
+  .mobileApp img {
+    height: 300px;
+  }
+  .mobileApp-text {
+    padding: 10px;
+  }
+  .mobileApp-text h2 {
+    font-size: 40px;
+  }
+  .mobileApp-text p {
+    font-size: 25px;
+  }
+
+  .mobileApp-text button {
+    font-size: 25px;
+  }
+
+  /* FOUNDER */
+  .founder {
+    flex-direction: column-reverse;
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+  }
+  .founder img {
+    height: 400px;
+  }
+  .founder-text {
+    padding: 30px 20px;
+  }
+  .founder-text h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .founder-text p {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  /* MAKING A DIFFERENCE */
+  .difference {
+    margin: 20px 10px;
+    padding: 0px;
+  }
+  .difference-text {
+    padding: 20px;
+  }
+  .difference-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .difference-text p {
+    font-size: 25px;
+  }
+  .diffOption {
+    flex-direction: column;
+    padding: 20px 50px;
+  }
+  .option {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .option img {
+    height: 300px;
+    width: 350px;
+    margin-bottom: 100px;
+  }
+
+  .diffOption-text {
+    width: 290px;
+    background-color: #f5f7fa;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    box-shadow: 0px 3px 7px -6px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    font-size: 20px;
+  }
+  .footerOne {
+    display: block;
+    margin: auto;
+    width: 50%; 
+  }
+  .footerOne-socials {
+    margin-bottom: 50px;
+  }
+  .footerTwo,
+  .footerThree {
+    margin: auto;
+    width: 50%;
+  }
+  .footerFour {
+    margin: auto;
+    width: 50%;
+  }
+  .footerFour h3 {
+    margin-bottom: 30px;
+  }
+  .email {
+    margin: auto;
+  }
+}   
+
+/* DOUBLE SCREEN TABLET */
+@media (min-width: 901px) AND (max-width: 1150px) {
+  .navbar {
+    padding: 10px 5px;
+  }
+
+  .navbar nav,
+  .joinUs {
+    display: bl0ck;
+  }
+
+  .hero-section {
+    padding: 0px;
+    margin: 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 49px;
+    line-height: 50px;
+    text-align: left;
+  }
+  .hero-text p {
+    margin: 15px 10px 10px 10px;
+    line-height: 30px;
+    font-size: 30px;
+  }
+  .hero-text button {
+    margin: 10px 0px 40px;
+    font-size: 25px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    height: 300px;
+  }
+
+  /* PARTNERS */
+
+  .partners {
+    margin: 30px 0px;
+    padding: 0px 50px;
+  }
+  .partners-text h2 {
+    font-size: 40px;
+  }
+  .partners-text p {
+    font-size: 25px;
+  }
+
+  /* COMMUNITY MANAGEMENT SYSTEM */
+  .commSystem-text h2 {
+    font-size: 45px;
+    padding: 0px 20px;
+  }
+
+  .commSystem-text p {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .commSystem-group {
+    padding: 0px 20px;
+  }
+  .memOrg,
+  .globAss,
+  .clubs {
+    width: 40%;
+    margin: 20px 10px;
+    padding: 30px;
+  }
+  .commSystem-group h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.commSystem-group p {
+    line-height: 27px;
+    font-size: 20px;
+}
+
+  /* INTERNET INTEGRATION */
+  .int-section {
+    margin: 30px 10px;
+    padding: 0px;
+  }
+
+  .int-section img {
+    height: 250px;
+  }
+  .int-text {
+    padding: 20px;
+  }
+  .int-text h2 {
+    font-size: 40px;
+  }
+  .int-text p {
+    font-size: 25px;
+  }
+  .int-text button {
+    font-size: 25px;
+  }
+
+  /*  JOURNEY */
+  .journey {
+    flex-direction: column;
+  }
+  .journey-text {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .journey-text h2 {
+    font-size: 40px;
+  }
+  .journey-text p {
+    font-size: 27px;
+  }
+  .milestone {
+    width: 100%;
+  }
+  .milestone h4 {
+    font-size: 35px;
+    margin: 20px;
+  }
+  .milestone p {
+    font-size: 25px;
+  }
+
+  .member,
+  .community,
+  .visitors,
+  .donations {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+  }
+  .member-text,
+  .community-text,
+  .visitors-text,
+  .donations-text {
+    margin-left: 40px;
+  }
+
+  /* MOBILE APP SECTION */
+  .mobileApp {
+    margin: 40px 20px;
+    padding: 0px;
+  }
+  .mobileApp img {
+    height: 300px;
+  }
+  .mobileApp-text {
+    padding: 10px;
+  }
+  .mobileApp-text h2 {
+    font-size: 40px;
+  }
+  .mobileApp-text p {
+    font-size: 25px;
+  }
+
+  .mobileApp-text button {
+    font-size: 25px;
+  }
+
+  /* FOUNDER */
+  .founder {
+    flex-direction: column-reverse;
+    text-align: left;
+    margin: 10px;
+    padding: 0px;
+  }
+  .founder img {
+    height: 400px;
+  }
+  .founder-text {
+    padding: 30px 20px;
+  }
+  .founder-text h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .founder-text p {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  /* MAKING A DIFFERENCE */
+  .difference {
+    margin: 20px 10px;
+    padding: 0px;
+  }
+  .difference-text {
+    padding: 20px;
+  }
+  .difference-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .difference-text p {
+    font-size: 25px;
+  }
+  .diffOption {
+    margin: 20px;
+    padding: 20px 50px;
+  }
+  .option {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  .option img {
+    height: 250px;
+    width: 300px;
+    margin-bottom: 100px;
+  }
+
+  .diffOption-text {
+    width: 290px;
+    background-color: #f5f7fa;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 180px;
+    left: 4%;
+    box-shadow: 0px 3px 7px -6px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+  footer a {
+    font-size: 20px;
+  }
+  .footerOne {
+    display: block;
+    margin: auto;
+    width: 50%; 
+  }
+  .footerOne-socials {
+    margin-bottom: 50px;
+  }
+  .footerTwo,
+  .footerThree {
+    margin: auto;
+    width: 50%;
+  }
+  .footerFour {
+    margin: auto;
+    width: 50%;
+  }
+  .footerFour h3 {
+    margin-bottom: 30px;
+  }
+  .email {
+    margin: auto;
+  }
+}
