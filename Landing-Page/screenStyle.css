@@ -17,7 +17,7 @@
   }
   .menu-bar {
     background-color: #4caf4f;
-    padding: 5px 10px;
+    padding: 5px 8px;
     border-radius: 10px;
     border: 3px solid #000;
     cursor: pointer;
@@ -56,12 +56,41 @@
     z-index: 1;
     padding: 20px;
     opacity: 0;
-    transition: background 0.3s ease-in-out;
     border: 2px solid #00000044;
   }
+
+  @keyframes menu-slide-in {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+  }
+
+  @keyframes menu-slide-out {
+    0% {
+      left: 0;
+      opacity: 1;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+
   #menu-toggle:checked + .menu-bar + .menu {
     display: block;
     opacity: 1;
+    animation: menu-slide-in 0.3s forwards;
+  }
+
+  #menu-toggle:not(:checked) + .menu-bar + .menu {
+    display: block;
+    opacity: 0;
+    animation: menu-slide-out 0.3s forwards;
   }
 
   .menu ul {
@@ -383,9 +412,39 @@
     transition: background 0.3s ease-in-out;
     border: 2px solid #00000044;
   }
+
+   @keyframes menu-slide-in {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+  }
+
+  @keyframes menu-slide-out {
+    0% {
+      left: 0;
+      opacity: 1;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+
   #menu-toggle:checked + .menu-bar + .menu {
     display: block;
     opacity: 1;
+    animation: menu-slide-in 0.3s forwards;
+  }
+
+  #menu-toggle:not(:checked) + .menu-bar + .menu {
+    display: block;
+    opacity: 0;
+    animation: menu-slide-out 0.3s forwards;
   }
 
   .menu ul {
@@ -715,9 +774,39 @@
     transition: background 0.3s ease-in-out;
     border: 2px solid #00000044;
   }
+  
+   @keyframes menu-slide-in {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0%;
+        opacity: 1;
+    }
+  }
+
+  @keyframes menu-slide-out {
+    0% {
+      left: 0;
+      opacity: 1;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+
   #menu-toggle:checked + .menu-bar + .menu {
     display: block;
     opacity: 1;
+    animation: menu-slide-in 0.3s forwards;
+  }
+
+  #menu-toggle:not(:checked) + .menu-bar + .menu {
+    display: block;
+    opacity: 0;
+    animation: menu-slide-out 0.3s forwards;
   }
 
   .menu ul {
@@ -739,13 +828,13 @@
   }
   .menu a:hover {
     color: #4caf4f;
-    transition: color 0.2s ease-in-out;    
+    transition: color 0.2s ease-in-out;
   }
   .menu-mobile button {
     display: block;
     font-size: 27px;
   }
-  
+
   /* NAVBAR SECTION */
   .navbar {
     padding: 10px 5px;
