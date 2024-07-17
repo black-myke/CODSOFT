@@ -774,7 +774,7 @@
     transition: background 0.3s ease-in-out;
     border: 2px solid #00000044;
   }
-  
+
    @keyframes menu-slide-in {
     0% {
         left: -100%;
@@ -785,6 +785,7 @@
         opacity: 1;
     }
   }
+  
 
   @keyframes menu-slide-out {
     0% {
