@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="top"></div>
+            <input type="text" id="inputext" placeholder="0">
+            <button onclick="clr()" class="upper">C</button>
+            <button onclick="del()" class="upper">DEL</button>
+            <button onclick="calculate('%')" class="upper">%</button>
+            <button onclick="calculate('/')" class="symbol">/</button>
+            <button onclick="calculate(7)">7</button>
+            <button onclick="calculate(8)">8</button>
+            <button onclick="calculate(9)">9</button>
+            <button onclick="calculate('*')" class="symbol">X</button>
+            <button onclick="calculate(4)">4</button>
+            <button onclick="calculate(5)">5</button>
+            <button onclick="calculate(6)">6</button>
+            <button onclick="calculate('-')" class="symbol">-</button>
+            <button onclick="calculate(1)">1</button>
+            <button onclick="calculate(2)">2</button>
+            <button onclick="calculate(3)">3</button>
+            <button onclick="calculate('+')" class="symbol">+</button>
+            <button onclick="calculate(0)">0</button>
+            <button onclick="calculate('.')" >.</button>
+            <button onclick="Result()" class="equal">=</button>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
